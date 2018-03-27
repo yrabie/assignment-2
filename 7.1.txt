@@ -1,0 +1,25 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+ float F ;
+ float Y=62.4;
+ float R ;
+ float V ;
+ float const pi=3.14;
+ cout << "Please enter your radius" <<
+endl;
+ cin >> R ;
+ V= (4*(R*R*R)*pi)/3;
+ F= V*Y;
+ if (F>=Y){
+     cout << "Object will float"<<
+endl;
+ }
+ else(F<Y);{
+     cout << "Object will sink"<< endl;
+ }
+ return 0;
+}
+3/4/18, 5)27 PM
+Page 1 of 1

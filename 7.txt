@@ -1,0 +1,286 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int len ;
+int covee2 = 1;
+int covee3 = 2;
+int chose ;
+char cov111 = 'y';
+char cov222 = 'y';
+char cov333 ;
+
+char cov1 ='a';
+char cov2 ='b';
+char cov3 ='c';
+char cov4 ='d';
+char cov5 ='e';
+char cov6 ='f';
+char cov7 ='m';
+char cov8 ='h';
+char cov9 ='i';
+char cov10 ='j';
+char cov11 ='k';
+char cov12 ='l';
+char cov13 ='g';
+char cov14 ='n';
+char cov15 ='o';
+char cov16 ='p';
+char cov17 ='q';
+char cov18 ='r';
+char cov19 ='s';
+char cov20 ='t';
+char cov21 ='u';
+char cov22 ='v';
+char cov23 ='w';
+char cov24 ='x';
+char cov25 ='y';
+char cov26 ='z';
+
+
+
+string ch ;
+string ch5 ;
+string wird;
+string word ;
+std::string str1=".-   ";
+std::string str2="-...   ";
+std::string str3="-.-.   ";
+std::string str4="-..   ";
+std::string str5=".   ";
+std::string str6="..-.   ";
+std::string str7="--.   ";
+std::string str8="....   ";
+std::string str9="..   ";
+std::string str10=".---   ";
+std::string str11="-.-   ";
+std::string str12=".--..   ";
+std::string str13="--   ";
+std::string str14="-.   ";
+std::string str15="---   ";
+std::string str16=".--.   ";
+std::string str17="--.-   ";
+std::string str18=".-.   ";
+std::string str19="...   ";
+std::string str20="-   ";
+std::string str21="..-   ";
+std::string str22="...-   ";
+std::string str23=".--   ";
+std::string str24="-..-   ";
+std::string str25="-.--   ";
+std::string str26="--..   ";
+
+
+
+
+
+
+
+
+
+void decipher()
+{
+string covr1 ="a";
+string covr2 ="b";
+string covr3 ="c";
+string covr4 ="d";
+string covr5 ="e";
+string covr6 ="f";
+string covr7 ="m";
+string covr8 ="h";
+string covr9 ="i";
+string covr10 ="j";
+string covr11 ="k";
+string covr12 ="l";
+string covr13 ="g";
+string covr14 ="n";
+string covr15 ="o";
+string covr16 ="p";
+string covr17 ="q";
+string covr18 ="r";
+string covr19 ="s";
+string covr20 ="t";
+string covr21 ="u";
+string covr22 ="v";
+string covr23 ="w";
+string covr24 ="x";
+string covr25 ="y";
+string covr26 ="z";
+
+std::string strr1=".-";
+std::string strr2="-...";
+std::string strr3="-.-.";
+std::string strr4="-..";
+std::string strr5=".";
+std::string strr6="..-.";
+std::string strr7="--.";
+std::string strr8="....";
+std::string strr9="..";
+std::string strr10=".---";
+std::string strr11="-.-";
+std::string strr12=".--..";
+std::string strr13="--";
+std::string strr14="-.";
+std::string strr15="---";
+std::string strr16=".--.";
+std::string strr17="--.-";
+std::string strr18=".-.";
+std::string strr19="...";
+std::string strr20="-";
+std::string strr21="..-";
+std::string strr22="...-";
+std::string strr23=".--";
+std::string strr24="-..-";
+std::string strr25="-.--";
+std::string strr26="--..";
+
+    for (int j=0;j <= len ;j++){
+		cin>>word;
+		if (word == strr1)
+			ch5.append(covr1);
+		else if (word==strr2)
+			ch5.append(covr2);
+		else if (word==strr3)
+			ch5.append(covr3);
+		else if (word==strr4)
+			ch5.append(covr4);
+		else if (word==strr5)
+			ch5.append(covr5);
+		else if (word==strr6)
+			ch5.append(covr6);
+		else if (word==strr7)
+			ch5.append(covr7);
+		else if (word==strr8)
+			ch5.append(covr8);
+		else if (word==strr9)
+			ch5.append(covr9);
+		else if (word==strr10)
+			ch5.append(covr10);
+		else if (word==strr11)
+			ch5.append(covr11);
+		else if (word==strr12)
+			ch5.append(covr12);
+		else if (word==strr13)
+			ch5.append(covr13);
+		else if (word==strr14)
+			ch5.append(covr14);
+		else if (word==strr15)
+			ch5.append(covr15);
+		else if (word==strr16)
+			ch5.append(covr16);
+		else if (word==strr17)
+			ch5.append(covr17);
+		else if (word==strr18)
+			ch5.append(covr18);
+		else if (word==strr19)
+			ch5.append(covr19);
+		else if (word==strr20)
+			ch5.append(covr20);
+		else if (word==strr21)
+			ch5.append(covr21);
+		else if (word==strr22)
+			ch5.append(covr22);
+		else if (word==strr23)
+			ch5.append(covr23);
+		else if (word==strr24)
+			ch5.append(covr24);
+		else if (word==strr25)
+			ch5.append(covr25);
+		else if (word==strr26)
+			ch5.append(covr26);
+    }
+}
+void gitchafer()
+{
+	for (int i=0;i <= wird.length();i++){
+		if (wird[i]==cov1)
+			ch.append(str1);
+		else if (wird[i]==cov2)
+			ch.append(str2);
+		else if (wird[i]==cov3)
+			ch.append(str3);
+		else if (wird[i]==cov4)
+			ch.append(str4);
+		else if (wird[i]==cov5)
+			ch.append(str5);
+		else if (wird[i]==cov6)
+			ch.append(str6);
+		else if (wird[i]==cov7)
+			ch.append(str7);
+		else if (wird[i]==cov8)
+			ch.append(str8);
+		else if (wird[i]==cov9)
+			ch.append(str9);
+		else if (wird[i]==cov10)
+			ch.append(str10);
+		else if (wird[i]==cov11)
+			ch.append(str11);
+		else if (wird[i]==cov12)
+			ch.append(str12);
+		else if (wird[i]==cov13)
+			ch.append(str13);
+		else if (wird[i]==cov14)
+			ch.append(str14);
+		else if (wird[i]==cov15)
+			ch.append(str15);
+		else if (wird[i]==cov16)
+			ch.append(str16);
+		else if (wird[i]==cov17)
+			ch.append(str2);
+		else if (wird[i]==cov17)
+			ch.append(str17);
+		else if (wird[i]==cov18)
+			ch.append(str18);
+		else if (wird[i]==cov19)
+			ch.append(str19);
+		else if (wird[i]==cov20)
+			ch.append(str20);
+		else if (wird[i]==cov21)
+			ch.append(str21);
+		else if (wird[i]==cov22)
+			ch.append(str22);
+		else if (wird[i]==cov23)
+			ch.append(str23);
+		else if (wird[i]==cov24)
+			ch.append(str24);
+		else if (wird[i]==cov25)
+			ch.append(str25);
+		else if (wird[i]==cov26)
+			ch.append(str26);
+
+	}
+
+
+
+
+}
+
+int main()
+{
+	while (cov111 == cov222){
+		cout<<"enter 1 to cipher or  2 to descipher \n";
+		cin>>chose;
+		if (chose == covee2)
+			{
+				cout<<"enter your word \n";
+				cin>>wird;
+			   gitchafer();
+			   cout<<"the chafer is : "<<ch<<"\n";
+			}
+		else if (chose == covee3)
+			{
+				cout<<"enter the number of elment in your cipher : ";
+				cin>>len;
+				cout<<"enter your word \n";
+				cin>>word;
+				decipher();
+				cout<<"the descapher is : "<<ch5<<"\n";
+
+			}
+		cout<<"if you wont get in the program agan enter y or n to out \n";
+		cin>>cov333;
+		cov222=cov333;
+	}
+cout<<"thank you for your time \n";
+
+return 0;
+}
